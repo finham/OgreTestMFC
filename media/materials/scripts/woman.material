@@ -1,0 +1,19 @@
+material 03-Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 0.588235 0.588235 0.588235 1
+			specular 0.9 0.9 0.9 0 10
+
+			texture_unit
+			{
+				texture 20110810.bmp
+			}
+		}
+
+	}
+
+}

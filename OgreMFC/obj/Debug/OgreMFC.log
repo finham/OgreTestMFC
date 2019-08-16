@@ -1,0 +1,151 @@
+﻿生成启动时间为 2019/6/13 21:18:59。
+     1>项目“C:\Users\Finnegan\documents\visual studio 2010\Projects\OgreMFC\OgreMFC\OgreMFC.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“obj\Debug\OgreMFC.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“obj\Debug\OgreMFC.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\boost_1_44" /I"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\Samples\Common\include" /I"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\include\OIS" /I"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\include\OGRE" /I"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"obj\Debug\OgreMFC.pch" /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\boost_1_44" /I"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\Samples\Common\include" /I"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\include\OIS" /I"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\include\OGRE" /I"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _AFXDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"obj\Debug\OgreMFC.pch" /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MainFrm.cpp MyFrameListener.cpp MyOgreApp.cpp OgreMFC.cpp OgreMFCDoc.cpp OgreMFCView.cpp
+         OgreMFCView.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: “INT8_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 参见“INT8_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: “INT16_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 参见“INT16_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: “INT32_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 参见“INT32_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: “INT8_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 参见“INT8_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: “INT16_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 参见“INT16_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: “INT32_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 参见“INT32_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: “UINT8_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 参见“UINT8_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: “UINT16_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 参见“UINT16_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: “UINT32_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 参见“UINT32_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: “INT64_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 参见“INT64_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: “INT64_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 参见“INT64_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: “UINT64_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 参见“UINT64_MAX”的前一个定义
+         OgreMFCDoc.cpp
+         OgreMFC.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: “INT8_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 参见“INT8_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: “INT16_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 参见“INT16_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: “INT32_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 参见“INT32_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: “INT8_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 参见“INT8_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: “INT16_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 参见“INT16_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: “INT32_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 参见“INT32_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: “UINT8_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 参见“UINT8_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: “UINT16_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 参见“UINT16_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: “UINT32_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 参见“UINT32_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: “INT64_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 参见“INT64_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: “INT64_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 参见“INT64_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: “UINT64_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 参见“UINT64_MAX”的前一个定义
+         MyOgreApp.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: “INT8_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 参见“INT8_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: “INT16_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 参见“INT16_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: “INT32_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 参见“INT32_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: “INT8_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 参见“INT8_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: “INT16_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 参见“INT16_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: “INT32_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 参见“INT32_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: “UINT8_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 参见“UINT8_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: “UINT16_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 参见“UINT16_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: “UINT32_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 参见“UINT32_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: “INT64_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 参见“INT64_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: “INT64_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 参见“INT64_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: “UINT64_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 参见“UINT64_MAX”的前一个定义
+         MyFrameListener.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(72): warning C4005: “INT8_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(144) : 参见“INT8_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(73): warning C4005: “INT16_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(146) : 参见“INT16_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(74): warning C4005: “INT32_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(148) : 参见“INT32_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(76): warning C4005: “INT8_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(167) : 参见“INT8_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(77): warning C4005: “INT16_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(171) : 参见“INT16_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(78): warning C4005: “INT32_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(176) : 参见“INT32_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(79): warning C4005: “UINT8_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(168) : 参见“UINT8_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(80): warning C4005: “UINT16_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(173) : 参见“UINT16_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(81): warning C4005: “UINT32_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(178) : 参见“UINT32_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(149): warning C4005: “INT64_MIN”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(152) : 参见“INT64_MIN”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(150): warning C4005: “INT64_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(184) : 参见“INT64_MAX”的前一个定义
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdint.h(151): warning C4005: “UINT64_MAX”: 宏重定义
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\intsafe.h(189) : 参见“UINT64_MAX”的前一个定义
+     1>c:\users\finnegan\documents\visual studio 2010\projects\ogremfc\ogremfc\myframelistener.cpp(39): warning C4305: “=”: 从“double”到“float”截断
+         MainFrm.cpp
+         正在生成代码...
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x0804" /Iobj\Debug\ /nologo /fo"obj\Debug\OgreMFC.res" OgreMFC.rc 
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"obj\Debug\OgreMFC.exe.embed.manifest.res" obj\Debug\OgreMFC_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Debug\OgreMFC.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\boost_1_44\lib" /LIBPATH:"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\lib\debug" OgreMain_d.lib OIS_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"obj\Debug\OgreMFC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Finnegan\documents\visual studio 2010\Projects\OgreMFC\OgreMFC\bin\Debug\OgreMFC.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Debug\OgreMFC.lib" /MACHINE:X86 obj\Debug\OgreMFC.res
+         obj\Debug\OgreMFC.exe.embed.manifest.res
+         obj\Debug\MainFrm.obj
+         obj\Debug\MyFrameListener.obj
+         obj\Debug\MyOgreApp.obj
+         obj\Debug\OgreMFC.obj
+         obj\Debug\OgreMFCDoc.obj
+         obj\Debug\OgreMFCView.obj
+         obj\Debug\stdafx.obj
+       Manifest:
+         正在删除文件“obj\Debug\OgreMFC.exe.embed.manifest”。
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"obj\Debug\OgreMFC.exe.embed.manifest" /manifest obj\Debug\OgreMFC.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"obj\Debug\OgreMFC.exe.embed.manifest.res" obj\Debug\OgreMFC_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Debug\OgreMFC.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\boost_1_44\lib" /LIBPATH:"C:\Users\Finnegan\Desktop\Ogre\OgreSDK_vc10_v1-7-3\lib\debug" OgreMain_d.lib OIS_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"obj\Debug\OgreMFC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Finnegan\documents\visual studio 2010\Projects\OgreMFC\OgreMFC\bin\Debug\OgreMFC.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Debug\OgreMFC.lib" /MACHINE:X86 obj\Debug\OgreMFC.res
+         obj\Debug\OgreMFC.exe.embed.manifest.res
+         obj\Debug\MainFrm.obj
+         obj\Debug\MyFrameListener.obj
+         obj\Debug\MyOgreApp.obj
+         obj\Debug\OgreMFC.obj
+         obj\Debug\OgreMFCDoc.obj
+         obj\Debug\OgreMFCView.obj
+         obj\Debug\stdafx.obj
+         OgreMFC.vcxproj -> C:\Users\Finnegan\documents\visual studio 2010\Projects\OgreMFC\OgreMFC\bin\Debug\OgreMFC.exe
+       FinalizeBuildStatus:
+         正在删除文件“obj\Debug\OgreMFC.unsuccessfulbuild”。
+         正在对“obj\Debug\OgreMFC.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Finnegan\documents\visual studio 2010\Projects\OgreMFC\OgreMFC\OgreMFC.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:47.26
